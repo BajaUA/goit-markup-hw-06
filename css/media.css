@@ -93,9 +93,7 @@
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
-
     max-width: 496px;
-
     margin-bottom: 36px;
   }
   .benefits-list {
@@ -216,8 +214,8 @@
     }
   }
   .doing {
-    display: contents;
-    padding-bottom: 188px;
+    display: flex;
+    padding-bottom: 120px;
   }
   .doing-title {
     margin: 0 auto;
