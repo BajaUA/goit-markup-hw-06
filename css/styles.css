@@ -181,7 +181,7 @@ img {
 }
 .menu-tel-link {
   color: var(--main-brand-color);
-  font-size: 36px;
+  font-size: 24px;
   font-family: Roboto;
   font-weight: 700;
   line-height: 1.11;
@@ -203,7 +203,7 @@ img {
   align-items: center;
   justify-content: start;
   margin-top: 48px;
-  gap: 56px;
+  gap: 32px;
 }
 .mob-soc-item {
   width: 40px;
@@ -302,6 +302,7 @@ img {
 
 .benefits-subtitle {
   text-align: center;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -679,7 +680,7 @@ img {
   top: 10%;
   transform: translate(-50%, -10%) scale(1);
   transition: transform var(--transition);
-  width: 392px;
+  width: calc(100% - 30px);
   min-height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;

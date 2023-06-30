@@ -5,11 +5,21 @@
   .footer-input {
     width: 398px;
   }
+  .menu-tel-link {
+    font-size: 36px;
+  }
+  .mob-soc-list {
+    gap: 56px;
+  }
+
+  .modal {
+    width: 392px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
   .open-menu-btn {
     display: none;
@@ -105,6 +115,9 @@
   .benefits-subtitle {
     text-align: unset;
   }
+  .team .container {
+    width: 584px;
+  }
   .team-list {
     gap: 64px 24px;
   }
@@ -147,24 +160,17 @@
     width: 264px;
   }
   .modal {
-    position: absolute;
     left: 50%;
-    top: -50%;
+    top: 50%;
     transform: translate(-50%, -50%) scale(1);
-    transition: transform var(--transition);
     width: 408px;
     min-height: 584px;
-    background-color: #fcfcfc;
-    border-radius: 4px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    padding: 72px 24px 24px 24px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1128px;
+    max-width: 1158px;
   }
   .header {
     border-bottom: 1px solid #e7e9fc;
@@ -196,6 +202,7 @@
   }
 
   .hero {
+    padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
